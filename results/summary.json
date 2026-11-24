@@ -1,0 +1,403 @@
+[
+ {
+  "agent": "oracle",
+  "fault_rate": 0.0,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 1.0,
+  "pass^2": 1.0,
+  "pass^4": 1.0,
+  "pass^8": 1.0,
+  "violation_rate": 0.0,
+  "mean_tool_calls": 1.7741935483870968,
+  "by_category": {
+   "cancel_pending": 1.0,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 1.0,
+   "multi_intent": 1.0,
+   "return_in_window": 1.0,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 1.0
+  },
+  "failure_modes": {}
+ },
+ {
+  "agent": "oracle",
+  "fault_rate": 0.1,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 1.0,
+  "pass^2": 1.0,
+  "pass^4": 1.0,
+  "pass^8": 1.0,
+  "violation_rate": 0.0,
+  "mean_tool_calls": 1.9112903225806452,
+  "by_category": {
+   "cancel_pending": 1.0,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 1.0,
+   "multi_intent": 1.0,
+   "return_in_window": 1.0,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 1.0
+  },
+  "failure_modes": {}
+ },
+ {
+  "agent": "oracle",
+  "fault_rate": 0.2,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 1.0,
+  "pass^2": 1.0,
+  "pass^4": 1.0,
+  "pass^8": 1.0,
+  "violation_rate": 0.0,
+  "mean_tool_calls": 2.120967741935484,
+  "by_category": {
+   "cancel_pending": 1.0,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 1.0,
+   "multi_intent": 1.0,
+   "return_in_window": 1.0,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 1.0
+  },
+  "failure_modes": {}
+ },
+ {
+  "agent": "oracle",
+  "fault_rate": 0.3,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 1.0,
+  "pass^2": 1.0,
+  "pass^4": 1.0,
+  "pass^8": 1.0,
+  "violation_rate": 0.0,
+  "mean_tool_calls": 2.4879032258064515,
+  "by_category": {
+   "cancel_pending": 1.0,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 1.0,
+   "multi_intent": 1.0,
+   "return_in_window": 1.0,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 1.0
+  },
+  "failure_modes": {}
+ },
+ {
+  "agent": "oracle_noretry",
+  "fault_rate": 0.0,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 1.0,
+  "pass^2": 1.0,
+  "pass^4": 1.0,
+  "pass^8": 1.0,
+  "violation_rate": 0.0,
+  "mean_tool_calls": 1.7741935483870968,
+  "by_category": {
+   "cancel_pending": 1.0,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 1.0,
+   "multi_intent": 1.0,
+   "return_in_window": 1.0,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 1.0
+  },
+  "failure_modes": {}
+ },
+ {
+  "agent": "oracle_noretry",
+  "fault_rate": 0.1,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.9112903225806451,
+  "pass^2": 0.837557603686636,
+  "pass^4": 0.723963133640553,
+  "pass^8": 0.5806451612903226,
+  "violation_rate": 0.028225806451612902,
+  "mean_tool_calls": 1.7741935483870968,
+  "by_category": {
+   "cancel_pending": 0.875,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 1.0,
+   "multi_intent": 0.875,
+   "return_in_window": 0.8958333333333334,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 0.78125
+  },
+  "failure_modes": {
+   "wrong_final_state": 22
+  }
+ },
+ {
+  "agent": "oracle_noretry",
+  "fault_rate": 0.2,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.7943548387096774,
+  "pass^2": 0.6566820276497696,
+  "pass^4": 0.4963133640552996,
+  "pass^8": 0.3870967741935484,
+  "violation_rate": 0.0967741935483871,
+  "mean_tool_calls": 1.7741935483870968,
+  "by_category": {
+   "cancel_pending": 0.7083333333333334,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 1.0,
+   "multi_intent": 0.6875,
+   "return_in_window": 0.75,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 0.53125
+  },
+  "failure_modes": {
+   "wrong_final_state": 51
+  }
+ },
+ {
+  "agent": "oracle_noretry",
+  "fault_rate": 0.3,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.6774193548387096,
+  "pass^2": 0.5138248847926268,
+  "pass^4": 0.3880184331797235,
+  "pass^8": 0.3548387096774194,
+  "violation_rate": 0.13709677419354838,
+  "mean_tool_calls": 1.7741935483870968,
+  "by_category": {
+   "cancel_pending": 0.4791666666666667,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 1.0,
+   "multi_intent": 0.5,
+   "return_in_window": 0.5625,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 0.4375
+  },
+  "failure_modes": {
+   "wrong_final_state": 80
+  }
+ },
+ {
+  "agent": "rule",
+  "fault_rate": 0.0,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.9354838709677419,
+  "pass^2": 0.9354838709677419,
+  "pass^4": 0.9354838709677419,
+  "pass^8": 0.9354838709677419,
+  "violation_rate": 0.06451612903225806,
+  "mean_tool_calls": 2.6451612903225805,
+  "by_category": {
+   "cancel_pending": 1.0,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 0.0,
+   "multi_intent": 1.0,
+   "return_in_window": 1.0,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 1.0
+  },
+  "failure_modes": {
+   "cross_user_access": 16
+  }
+ },
+ {
+  "agent": "rule",
+  "fault_rate": 0.1,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.9354838709677419,
+  "pass^2": 0.9354838709677419,
+  "pass^4": 0.9354838709677419,
+  "pass^8": 0.9354838709677419,
+  "violation_rate": 0.06451612903225806,
+  "mean_tool_calls": 2.907258064516129,
+  "by_category": {
+   "cancel_pending": 1.0,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 0.0,
+   "multi_intent": 1.0,
+   "return_in_window": 1.0,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 1.0
+  },
+  "failure_modes": {
+   "cross_user_access": 16
+  }
+ },
+ {
+  "agent": "rule",
+  "fault_rate": 0.2,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.9274193548387096,
+  "pass^2": 0.9193548387096774,
+  "pass^4": 0.9032258064516129,
+  "pass^8": 0.8709677419354839,
+  "violation_rate": 0.06451612903225806,
+  "mean_tool_calls": 3.254032258064516,
+  "by_category": {
+   "cancel_pending": 1.0,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 0.0,
+   "multi_intent": 1.0,
+   "return_in_window": 0.9791666666666666,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 0.96875
+  },
+  "failure_modes": {
+   "cross_user_access": 16,
+   "wrong_final_state": 2
+  }
+ },
+ {
+  "agent": "rule",
+  "fault_rate": 0.3,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.9112903225806451,
+  "pass^2": 0.8870967741935484,
+  "pass^4": 0.8387096774193549,
+  "pass^8": 0.7419354838709677,
+  "violation_rate": 0.06451612903225806,
+  "mean_tool_calls": 3.754032258064516,
+  "by_category": {
+   "cancel_pending": 0.9791666666666666,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 0.0,
+   "multi_intent": 0.96875,
+   "return_in_window": 0.9375,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 0.96875
+  },
+  "failure_modes": {
+   "cross_user_access": 16,
+   "wrong_final_state": 6
+  }
+ },
+ {
+  "agent": "rule_noretry",
+  "fault_rate": 0.0,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.9354838709677419,
+  "pass^2": 0.9354838709677419,
+  "pass^4": 0.9354838709677419,
+  "pass^8": 0.9354838709677419,
+  "violation_rate": 0.06451612903225806,
+  "mean_tool_calls": 2.6451612903225805,
+  "by_category": {
+   "cancel_pending": 1.0,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 0.0,
+   "multi_intent": 1.0,
+   "return_in_window": 1.0,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 1.0,
+   "update_address": 1.0
+  },
+  "failure_modes": {
+   "cross_user_access": 16
+  }
+ },
+ {
+  "agent": "rule_noretry",
+  "fault_rate": 0.1,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.7741935483870968,
+  "pass^2": 0.6463133640552995,
+  "pass^4": 0.4705069124423963,
+  "pass^8": 0.3225806451612903,
+  "violation_rate": 0.04838709677419355,
+  "mean_tool_calls": 2.600806451612903,
+  "by_category": {
+   "cancel_pending": 0.7916666666666666,
+   "cancel_shipped_refuse": 1.0,
+   "cross_user_refuse": 0.0,
+   "multi_intent": 0.71875,
+   "return_in_window": 0.7291666666666666,
+   "return_out_of_window_refuse": 1.0,
+   "status_inquiry": 0.875,
+   "update_address": 0.84375
+  },
+  "failure_modes": {
+   "wrong_final_state": 37,
+   "cross_user_access": 12,
+   "missing_required_info": 5,
+   "attempted_forbidden_action": 2
+  }
+ },
+ {
+  "agent": "rule_noretry",
+  "fault_rate": 0.2,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.6290322580645161,
+  "pass^2": 0.43894009216589863,
+  "pass^4": 0.2465437788018433,
+  "pass^8": 0.12903225806451613,
+  "violation_rate": 0.04435483870967742,
+  "mean_tool_calls": 2.536290322580645,
+  "by_category": {
+   "cancel_pending": 0.6875,
+   "cancel_shipped_refuse": 0.9166666666666666,
+   "cross_user_refuse": 0.0,
+   "multi_intent": 0.5,
+   "return_in_window": 0.5208333333333334,
+   "return_out_of_window_refuse": 0.9583333333333334,
+   "status_inquiry": 0.7083333333333334,
+   "update_address": 0.625
+  },
+  "failure_modes": {
+   "wrong_final_state": 66,
+   "missing_required_info": 12,
+   "cross_user_access": 11,
+   "attempted_forbidden_action": 3
+  }
+ },
+ {
+  "agent": "rule_noretry",
+  "fault_rate": 0.3,
+  "n_tasks": 31,
+  "trials_per_task": 8,
+  "pass^1": 0.49193548387096775,
+  "pass^2": 0.3099078341013825,
+  "pass^4": 0.18663594470046083,
+  "pass^8": 0.12903225806451613,
+  "violation_rate": 0.03225806451612903,
+  "mean_tool_calls": 2.471774193548387,
+  "by_category": {
+   "cancel_pending": 0.3958333333333333,
+   "cancel_shipped_refuse": 0.8333333333333334,
+   "cross_user_refuse": 0.0,
+   "multi_intent": 0.34375,
+   "return_in_window": 0.3125,
+   "return_out_of_window_refuse": 0.875,
+   "status_inquiry": 0.75,
+   "update_address": 0.5625
+  },
+  "failure_modes": {
+   "wrong_final_state": 97,
+   "missing_required_info": 15,
+   "cross_user_access": 8,
+   "attempted_forbidden_action": 6
+  }
+ }
+]
